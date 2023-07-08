@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACM Home Pge</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <!-- navigation bar -->
+    <div class="navbar">
+        <div class="nav-logo">
+            <div class="logo"></div>
+        </div>
+        <div class="nav-elements">
+            <div class="nav-home border">
+                <a href="acmindex.html">HOME</a>
+            </div>
+            <div class="nav-team border">
+                <a href="team.html">TEAM</a>
+            </div>
+            <div class="nav-events border">
+                <a href="events.html">EVENTS</a>
+            </div>
+            <div class="nav-laws border">
+                <a href="chapter.html">CHAPTER BY-LAWS</a>
+            </div>
+            <div class="nav-register border">
+                <a href="register.html">REGISTER</a>
+            </div>
+        </div>
+    </div>
+    <!--hero section-->
+    <div class="hero">
+        <div class="hero-circle">
+            <img src="acm-dess.png" alt="acm vvce logo" width="350"height="200">
+            <h2>Association of Computing Machinary Student Chapter at VVCE, Mysuru.</h2>
+            <button class="button"><a href="register.html">REGISTER</a></button>
+        </div>
+        <div class="hero-text">
+            <h2> This chapter is organised exclusively for education<br> and scientific purpose to promote knowledge of <h1>Science, Design and Development.</h1></h2><br><br>
+            <h2>We see a world where computing helps solve <br>tomorrow’s problems. where we use our knowledge<br> and skills to advance the profession and make a <br><h1>positive impact.</h1></h2><br><br>
+            <h1>A volunteer-driven organization.</h1>
+            <h2> Our volunteer leaders choose the directions for <br>ACM and oversee our many activities and initiatives.</h2>
+        </div>
+    </div>
+    <div class="hero-2">
+        <div class="achievements">
+            <h1>Achievements:</h1><hr><br>
+            <p>Ashwin A Kumar has been selected for Google Summer of Code (GSoC-2020)</p><br>
+            <p>Manoj Athreya A was selected for ACM Winter School on Hybrid Cloud at IISC Bangalore (9 - 14 Jan 2020)</p><br>
+            <p>Gaurav Purswani was selected for ACM Winter School 2019 on Cyber security at NISER Bhubaneswar (10 - 16 Dec 2019)</p><br>
+            <p>Parikshith H was selected for ACM Summer School 2019 on Cyber security and Data Analytics at IIIT Delhi (8 - 19 Jul 2019)</p><br><br><br>
+            <h1>Services & Projects:</h1><hr><br>
+            <p><h3>Consultancy Services</h3>A Project "Computerised Voting System" was developed for the elections of Cosmo Politan Club 2019</p><br>
+            <p><h3>Hour of Code</h3>Code.org decided to organize "Hour of Code" where all do programming for an hour. ACM VVCE MYSURU decided to join and went to local schools to promote computing and programming by conducting this "Hour of Code".</p><br>
+            <p><h3>Industrial Visit</h3>A visit to ISRO Master Control Facility (MCF) on October 1, 2018.</p><br>
+            <p><h3>AICDMB 2021 INTERNATIONAL CONFERENCE</h3> Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB-2021)</p>
+
+
+        </div>
+    </div>
+    <a href="#" class="to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <!--footer section-->
+    <div class="foot-sec">
+        <div class="vvce-links">
+            <p>See more about VVCE at:</p>
+            <div class="icons">
+                <a href="https://www.instagram.com/vvceofficial/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/vvceofficial/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/school/vvceofficial/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="vvce-logo"></div>
+        <div class="acm-links">
+            <p>See more about ACM VVCE at:</p>
+            <div class="icons">
+                <a href="https://www.instagram.com/vvce_acm/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/vvceacm"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/acm-student-chapter-vvce-411a831b1/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="foot-sec2">
+        <p>Â©VVCE ACM Student Chapter, Mysuru</p>
+    </div>
+    <script>
+        const toTop = document.querySelector(".to-top");
+        window.addEventListener("scroll",()=>{
+            if(window.pageYOffset > 100){
+                toTop.classList.add("active");
+            }
+            else{
+                toTop.classList.remove("active");
+            }
+        })
+    </script>
+</body>
+</html>

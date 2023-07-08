@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    background-color: #161f29;
+}
+
+.hero{
+  display: flex;
+}
+.row{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.align{
+  display: flex;
+  color: #161f29;
+  font-size: 1.2rem;
+  background-color: aliceblue;
+}
+.align1{
+  margin-left: 20px
+}
+.image-text {
+  display: inline-block;
+  position: relative;
+  border: yellow solid 3px;
+}
+
+.image-text img {
+  transition: opacity 0.5s;
+}
+
+.image-text:hover img {
+  opacity: 0;
+}
+
+.image-text .text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#f5b090;
+  color: #161f29;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.image-text:hover .text-overlay {
+  opacity: 1;
+}
+.image-text1 {
+  display: inline-block;
+  position: relative;
+  border: yellow solid 3px;
+}
+
+.image-text1 img {
+  transition: opacity 0.5s;
+}
+
+.image-text1:hover img {
+  opacity: 0;
+}
+
+.image-text1 .text-overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#f5b090;
+  color: #161f29;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.image-text1:hover .text-overlay1 {
+  opacity: 1;
+}
+.image-text2 {
+  display: inline-block;
+  position: relative;
+  border: yellow solid 3px;
+}
+
+.image-text2 img {
+  transition: opacity 0.5s;
+}
+
+.image-text2:hover img {
+  opacity: 0;
+}
+
+.image-text2 .text-overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#f5b090;
+  color: #161f29;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.image-text2:hover .text-overlay2 {
+  opacity: 1;
+}
+.image-text3 {
+  display: inline-block;
+  position: relative;
+  border: yellow solid 3px;
+}
+
+.image-text3 img {
+  transition: opacity 0.5s;
+}
+
+.image-text3:hover img {
+  opacity: 0;
+}
+
+.image-text3 .text-overlay3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#f5b090;
+  color: #161f29;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.image-text3:hover .text-overlay3 {
+  opacity: 1;
+}
+h2{
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-decoration-line: underline;
+}
+.navbar{
+  background-color:#161f29;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 105px;
+}
+.nav-logo{
+  width:35%;
+}
+.logo{
+  background-image: url("acm-logo.png");
+  background-size:cover;
+  height: 100px;
+  width: 100px;
+}
+
+.border:hover{
+  color: yellow;
+  font-size: 1.3rem;
+}
+.nav-elements{
+  color: #ccccccf4;
+  display: flex;
+  font-size: 1rem;
+}
+.nav-home{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.nav-team{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.nav-events{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.nav-laws{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.nav-register{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.foot-sec{
+  background-color: #161f29;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 300px;
+}
+.vvce-logo{
+  background-image: url("vvce-logo.png");
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+}
+.icons{
+  margin-left: 25px;
+  margin-top: 20px;
+  font-size: 40px;
+  justify-content: space-evenly;
+}
+a{
+  color: white;
+}
+a :hover{
+  color: yellow;
+}
+.foot-sec2{
+  background-color: #11181f;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+}
+::-webkit-scrollbar{
+  width:0.45em;
+}
+::-webkit-scrollbar-track{
+  background: rgb(14, 14, 14);
+ 
+}
+::-webkit-scrollbar-thumb{
+  background: #c5765138;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #c57651;
+}
+.to-top{
+  background-color: #c57651;
+  color: #11181f;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .4s;
+}
+.to-top.active{
+  bottom: 32px;
+  pointer-events: auto;
+  opacity:1;
+}
+html{
+  scroll-behavior: smooth;
+}
+.to-top:hover{
+  background-color: #11181f;
+  color: #c57651;
+}
